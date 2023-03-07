@@ -5,6 +5,12 @@ import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import StocksSecondList from './components/stocks-list2/StocksList2';
+import MovedStocks from './containers/moved-stocks/MovedStocks';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
